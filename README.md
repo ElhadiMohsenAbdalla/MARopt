@@ -49,3 +49,7 @@ The following steps explain how to use MARopt to optimize MAR measures for a cat
 7. You can visulaize the pareto front of the MAR measures and present different pareto optimal scenarios. You aslo can compare different pareto optiaml solutions together 
 
 ![ScreenShot](/Figures/fig7.JPG)
+
+
+# Acknowledgements 
+This work was supported by the EviBAN project (Evidence based assessment of NWRM for sustainable water management). EviBAN is funded under the Water JPI 2018 Joint Call - WaterWorks 2017 on “Closing the Water Cycle Gap – Sustainable Management of Water Resources”, the research council of Norway (grant no 300281), and the Academy of Finland (no 326787). 
