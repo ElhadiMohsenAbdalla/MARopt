@@ -25,8 +25,27 @@ The following steps explain how to use MARopt to optimize MAR measures for a cat
 
 ![ScreenShot](/Figures/fig1.JPG)
 
-2. Choose tthe file "MAR_uncalibrated.xlsx". The tool will plot the results of the current model and compared
-
-5. The SWMMLIDopt will excute the model, plot the catchment, simulation results, and print the catchment characteristics as shown in the following figure
+2. Choose tthe file "MAR_uncalibrated.xlsx". The tool will plot the results of the current model and compare it with observations at the selected node as shown below
 
 ![ScreenShot](/Figures/fig2.JPG)
+
+3. To calibrate the model, choose the node that has measured flow and click "Run calibration". The results of the model calibration will be printed as follow   
+
+![ScreenShot](/Figures/fig3.JPG)
+
+4. You can export the calibrated parameters (the retention of each node) and paste in the retention column in the sheet "Nodes"
+
+![ScreenShot](/Figures/fig4b.JPG)
+
+5. To run multi objective optimization for MAR measures, go to the tab "Optimization", upload a calibrated model, and click on "Run multi objective optimization". After the optimization is finished, export the results file (.json) 
+
+![ScreenShot](/Figures/fig5.JPG)
+
+6. To visualize the results, go to the tab "Optimization results" and upload the result file (.json).  
+
+![ScreenShot](/Figures/fig6.JPG)
+
+
+7. You can visulaize the pareto front of the MAR measures and present different pareto optimal scenarios. You aslo can compare different pareto optiaml solutions together 
+
+![ScreenShot](/Figures/fig7.JPG)
